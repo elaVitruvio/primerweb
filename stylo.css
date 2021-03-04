@@ -103,32 +103,34 @@ h3{
 /*texto e imagen del cuerpo*/
 .elDiv{
     width: 100%;
-    margin: 0 auto 0 auto;
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 1000px;
-    
+    background-color: blue;
+    height: 500px;
+    display:inline-block;
 }
 
 /*texto*/
 .content{
     width: 50%;
     color: yellowgreen;
-    background-color: black;
+    background-color: black;    
     float: left;
-    padding: 1rem;
-    height: 500px;
 }
 
 /*imagen*/
 .contentDos{
     background-color: black;
-    padding: 5rem;
+    float: right;
     height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+.clear{
+    clear:both;
+}
 
 table{
    margin: auto;
